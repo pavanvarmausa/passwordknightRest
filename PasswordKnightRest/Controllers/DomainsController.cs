@@ -21,7 +21,7 @@ namespace PasswordKnightRest.Controllers
         }
 
         // GET: api/Domains/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "GetDomains")]
         public string Get(String id)
         {
             CloudStorageAccount storageAccount =
